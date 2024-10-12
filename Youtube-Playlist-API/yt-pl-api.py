@@ -1,4 +1,4 @@
-# Copyright 2023. ZiTTA All rights reserved.
+# Copyright 2024. ZiTTA All rights reserved.
 # Youtube-playlist_API
 # 2024-10-04
 
@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 import json
 
 # API 키와 재생목록 ID 설정
-playlist_url = r"https://www.youtube.com/playlist?list=Playlist_ID"  # r(읽기 모드)로 실행.
+playlist_url = r"Playlist_URL"  # r(읽기 모드)로 실행.
 api_key = "YOUR_API_KEY"
 playlist_id = playlist_url.split('=')[1]
 
